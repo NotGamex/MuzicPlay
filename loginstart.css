@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    position: absolute;
+    background: url(loginasset/wp.jpg);
+    width: 100%;
+    height: 100%;
+    zoom: 37%;
+    
+  /*filter: blur(20px);
+     filter: saturate(120%);
+    -webkit-filter: blur(100px);*/
+ }
+ .container{
+    position: absolute;
+    margin: 40px;
+    width: 195vh;
+    height: 90vh;
+    background-color: rgba(255,255,255,.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+ }
+ .loginform{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 8%;
+    width: 55vh;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0) ;   
+  /*  background-color: rgba(255, 255, 255, 0.113);*/
+   backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0px 2px  100px #000000ca;
+    
+
+ }
+ .loginform img{
+     position: absolute;
+     width: 20vh;
+     height: 20vh;
+     border-radius: 25vh;
+     margin-top: 15%;
+     margin-left: 31%;
+     box-shadow: 0px 20px  40px #000000b9;
+    
+ }
+ /*.loginform .username{
+    position: relative;
+    margin-top: 60%;
+    margin-left: 12vh;
+    font-family: poppins;
+    color: rgb(246, 239, 239);
+    font-size: 20px;
+    text-shadow: 0 0px 8px rgba(0, 0, 0, 0.362);
+    cursor: default;
+    text-decoration: none;
+ }
+ .loginform .username:hover{
+    color: #fff;
+    
+ }*/
+ .loginform ul li{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 5.2vh;
+    font-family: poppins;
+    color: rgb(246, 239, 239);
+    font-size: 2.8vh;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.362);
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+ }
+ .loginform ul li a{
+    text-decoration: none;
+    color: rgb(246, 239, 239);
+ }
+ .loginform ul li:hover{
+    color: #fff;
+    
+ }
+ 
+ .about{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 10%;
+    width: 55vh;
+    height: 60vh;
+    /*background-color: antiquewhite;*/
+ }
+ .about img{
+    position: absolute;
+    width: 35vh;
+    height: 35vh;
+    margin-top: 25%;
+ }
+ .about img:hover{
+  filter: saturate(200%);
+ }
+
+ .about h1{
+    position: relative;
+    margin-top: 48%;
+    margin-left: 65%;
+    font-size: 9vh;
+    font-family: sans-serif;
+    /*font-family: poppins;*/
+    color: #ffffffc2;
+    font-weight: 500;
+    cursor: default;
+    }
+
+ .about h1:hover{
+    color: #fff;
+
+ }
+.about p{
+    position: relative;
+    margin-top: -9%;
+    margin-left: 65%;
+    font-size: 3vh;
+    width: 50vh;
+    color: rgb(218, 74, 74);
+    font-family: sans-serif;
+    cursor: default;
+}
+.loginform .or{
+    position: absolute;
+    margin-top: 37vh;
+    margin-left: 25vh;
+    font-family: poppins;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    text-shadow: 0 0px 8px rgba(0, 0, 0, 0.362);
+    cursor: default;
+ }
+ .loginform .register{
+    position: absolute;
+    margin-top: 44vh;
+    margin-left: 8vh;
+    width: 35vh;
+    height: 4vh;
+    background: rgb(18, 40, 35);
+    border: none;
+    outline: none;
+    border-radius:0.7vh;
+    font-family: poppins;
+    box-shadow: 0px 2px  35px #000000b9;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 12px;
+   
+ }
+ .loginform .btn{
+   position: absolute;
+   margin-top: 44.3vh;
+   margin-left: 38vh;
+   padding-left: 5px;
+   width: 8vh;
+   height: 3.5vh;
+   border-radius: 0.7vh;
+   border: none;
+   font-family: poppins;
+   background-color: rgb(232, 133, 250);
+   font-size: 11px;
+   cursor: pointer;
+ }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuzicPlay | Login</title>
+    <link rel = "icon" href = 
+    "loginasset/ICON.png" 
+            type = "image/x-icon">
+            <link rel="stylesheet" href="loginstart.css">
+</head>
+<body>
+    <div class="bg"></div>
+
+    <div class="container">
+    
+        <div class="loginform">
+            <img src="loginasset/stock.jpg">
+            
+        <a href="main/index.html"><ul><li>Continue as Tony Stark</li></ul>
+        </a> 
+        <p class="or">OR</p>
+        <form action="main/register.html">
+        <input type="email" class="register" placeholder="Your Email here" required="required" >
+        <input type="submit" class="btn" id="Continue"></form>
+
+    </div>
+    </div>
+    <div class="about">
+        <img src="loginasset/ICON.png">
+        <h1>MuzicPlay</h1>
+    <p>A Place for Everyone</p></div>
+
+    <script type="text/javascript"> 
+        console.log("You Can Use A Default Account Created BY The Author");
+        
+        let Continue = document.getElementById('Continue');
+        
+        Continue.addEventListener('click', ()=>{
+         alert("You've Been Registered on MuzicPlay | Now Press 'OK' To Continue") ;
+
+        })
+  
+
+          </script>
+</body>
+
+</html>
