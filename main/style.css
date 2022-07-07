@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+   position: absolute;
+   background: url(Assets/bg2.jpg);
+   width: 100%;
+   height: 100%;
+
+   
+  /* filter: blur(20px);*/
+  filter: saturate(120%);
+  /* -webkit-filter: blur(100px);*/
+}
+.container{
+   position: absolute;
+   margin: 40px;
+   width: 195vh;
+   height: 90vh;
+   background-color: rgba(255,255,255,.15);
+   backdrop-filter: blur(7px);
+}
+
+.sidenav{
+    position: absolute;
+    width: 250px;
+    height: 84.5%;
+   /*background-color: black;*/
+   border-right: 0.1px  solid rgb(220, 218, 225); 
+   opacity: 35%;
+}
+ .prof{
+    position: absolute;
+    margin-left: 40px;
+    width: 160px;
+    height: 90px;
+    /*background-color: black;*/
+    border-bottom: 0.1px  solid rgb(220, 218, 225); 
+    opacity: 40%;
+}
+.tools{
+    position: relative;
+    margin-left: 40px;
+    width: 160px;
+    height: 340px;
+    /*background-color: black;*/
+    border-bottom: 0.1px  solid rgb(220, 218, 225); 
+    opacity: 40%;
+}
+.others{
+    position: relative;
+    margin-left: 40px;
+    width: 160px;
+    height: 80px;
+    /*background-color: black;*/
+    border-bottom: 0.1px  solid rgb(220, 218, 225); 
+    opacity: 40%;
+}
+
+.img1{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 75px;
+    width: 35px;
+    height: 35px;
+    opacity: 100%;
+    border-radius: 25px;
+    box-shadow:0 0 20px rgb(40, 41, 48);
+    cursor: pointer;
+}
+.img1:hover{
+    transition: 0.5s;
+    box-shadow:0 0 15px  rgb(255, 255, 255);
+    
+}
+.name{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 90%;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 140px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 25%;
+}
+.cov1{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 175px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+
+.cov1:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov1 svg{
+    position: relative;
+    margin: 8px;
+    width: 15px;
+}
+.cov2{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 228px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.cov2:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov2 svg{
+    position: relative;
+    margin: 8px;
+    width: 15px;
+}
+.cov3{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 280px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.cov3:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov3 svg{
+    position: relative;
+    margin: 9px;
+    width: 13px;
+}
+
+.cov4{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 332px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.cov4:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov4 svg{
+    position: relative;
+    margin: 8px;
+    margin-top: 10px;
+    width: 15px;
+}
+.discover{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 180px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.discover:hover{
+    opacity: 100%;
+}
+.trend{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 235px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.trend:hover{
+    opacity: 100%;
+}
+.playlist{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 287px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.playlist:hover{
+    opacity: 100%;
+}
+.stream{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 338px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.stream:hover{
+    opacity: 100%;
+}
+.cov5{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 405px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.podcast{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 412px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.podcast:hover{
+    opacity: 100%;
+}
+.cov5:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov5 svg{
+    position: relative;
+    margin: 8px;
+    width: 15px;
+}
+.cov6{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 490px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.premium{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 496px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.premium:hover{
+    opacity: 100%;
+}
+.cov6:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov6 svg{
+    position: relative;
+    margin: 8px;
+    width: 15px;
+}
+.player{
+    position: fixed;
+    bottom: 0px;
+    width: 195vh;
+    /*width: 1280px;*/
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.113);
+   backdrop-filter: blur(7px);
+   align-items: center;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    margin-left: 250px;
+    width: 157vh;
+   /* width: 1030px;*/
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.096);
+   backdrop-filter: blur(7px);
+}
+.navbase{
+    position: absolute;
+    margin-top: 0px;
+    width: 1030px;
+    height: 50px;
+   align-items: center;
+   /*background-color: #fff;*/
+}
+.maindis{
+    margin-top: 30px;
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 50px;
+    font-family: poppins;
+    text-shadow: 0 0px 8px rgba(0, 0, 0, 0.362);
+}
+.recent{
+    margin-top: 100px;
+    position: absolute;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 50px;
+    font-family: poppins;
+    font-weight: 400;
+    }
+
+.cover1{
+    width: 150px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 130px;
+    box-shadow: 0 20px  60px #000000b9;
+    cursor: pointer;
+}
+.cover2{
+    width: 150px;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px #0000004d;
+    cursor: pointer;
+}
+.cover3{
+    width: 150px;
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px #00000027;
+    cursor: pointer;
+}
+.cover4{
+    width: 150px;
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px #00000027;
+    cursor: pointer;
+}
+.cover5{
+    width: 150px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px #00000027;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 950px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: 	#474b64;
+    box-shadow: 0 5px 20px #0000008d;
+    cursor: pointer;
+}
+.title1{
+    position: absolute;
+    margin-top: 292px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+.title2{
+    position: absolute;
+    margin-top: 292px;
+    margin-left: 230px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+.title3{
+    position: absolute;
+    margin-top: 292px;
+    margin-left: 410px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+.title4{
+    position: absolute;
+    margin-top: 292px;
+    margin-left: 590px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+
+.title5{
+    position: absolute;
+    margin-top: 292px;
+    margin-left: 770px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+.ar1{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 11px;
+    opacity: 55%;
+}
+.ar2{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 230px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 11px;
+    opacity: 55%;
+}
+.ar3{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 410px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 11px;
+    opacity: 55%;
+}
+.ar4{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 590px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 11px;
+    opacity: 55%;
+}
+.ar5{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 770px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 11px;
+    opacity: 55%;
+}
+.MP{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    opacity: 60%;
+}
+.popular{
+    position: absolute;
+    width: 600px;
+    margin-left: 50px;
+    height: 86px;
+    margin-top: 415px;
+    border-top: 0.5px solid #fff;
+    opacity: 40%;
+}
+.hash1{
+    position: absolute;
+    margin-top: 20px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    
+}
+/*.hash2{
+    position: absolute;
+    margin-top: 52px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    
+}*/
+.atitile1{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 100px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    cursor: pointer;
+}
+.atitile2{
+    position: absolute;
+    margin-top: 455px;
+    margin-left: 100px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 10px;
+    opacity: 50%;
+}
+.btitile1{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 418px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+}
+.ctitile1{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 550px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+}
+.podcaster{
+    position: absolute;
+    width: 250px;
+    margin-left: 720px;
+    height: 86px;
+    margin-top: 415px;
+    border-top: 0.5px solid #fff;
+    opacity: 40%;
+}
+.TP{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 720px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    opacity: 60%;
+}
+.hashh1{
+    position: absolute;
+     margin-top: 435px;
+     margin-left: 790px;
+     color: #fff;
+     font-family: poppins;
+     font-size: 14px;
+     cursor: pointer;
+}
+.ahashh1{
+  
+    position: absolute;
+    margin-top: 458px;
+    margin-left: 790px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 10px;
+    opacity: 50%;
+    cursor: pointer;
+    }
+
+.p1{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 720px;
+    width: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.next svg{
+    width: 10px;
+    margin: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.range{
+    position: absolute;
+    -webkit-appearance: none;
+    width: 600px;
+    height: 3px;
+    margin-left: 580px;
+    margin-top:43px;
+    background: #ddd;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+}
+.player svg{
+    position: absolute;
+    width: 40px;
+    margin-top: 25px;
+    margin-left: 400px;
+    cursor:pointer;
+}
+.playerback svg{
+    position: absolute;
+    width: 15px;
+    margin-top: 33px;
+    margin-left: 360px;
+    opacity: 50%;
+    cursor:pointer;
+}
+.playernext svg{
+    position: absolute;
+    width: 15px;
+    margin-top: 33px;
+    margin-left: 470px;
+    opacity: 50%;
+    cursor:pointer;
+}
+
+.coverplay{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+}
+.songname{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 28px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    cursor: pointer;
+}
+.artistname{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 50px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+    cursor: pointer;
+}
+.songcover{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 48px;
+    height: 48px;
+}
+
+.options{
+    position: absolute;
+    width: 15px;
+    margin-top: 50px;
+    margin-left: 850px;
+    opacity: 60%;
+    cursor: pointer;
+}
+.options:hover{
+    opacity: 100%;
+}
+.noti{
+    position: absolute;
+    width: 15px;
+    margin-top: 50px;
+    margin-left: 890px;
+    opacity: 60%;
+    cursor: pointer;
+}
+.noti:hover{
+    opacity: 100%;
+}
+.share{
+    position: absolute;
+    width: 15px;
+    margin-top: 50px;
+    margin-left: 930px;
+    opacity: 60%;
+    cursor: pointer;
+}
+.share:hover{
+    opacity: 100%;
+}
+/*.ts1{
+    position: absolute;
+    margin-left: 535px;
+    margin-top: 43px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+}
+.ts2{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 43px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+}*/
+.playsound svg{
+    position: absolute;
+    width: 20px;
+    margin-top: 35px;
+    margin-left: 545px;
+    opacity: 70%;
+    cursor:pointer;
+}
+.sparkles{
+    position: absolute;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 420px;
+    cursor: default;
+
+}
+.playerplay svg{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    margin-top: 18px;
+    margin-left: 395px;
+   /*border: 4px solid #fff;*/
+   cursor: pointer;
+   opacity: 100;
+
+}

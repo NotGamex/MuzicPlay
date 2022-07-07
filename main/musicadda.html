@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuzicPlay : A Place For Everyone</title>
+    <link rel = "icon" href = 
+    "assets/ICON.ico" 
+            type = "image/x-icon">
+            
+</head>
+<body>
+    
+    <div class="bg"> </div>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbase">
+                <p class="maindis">ARTIST</p>
+                <p class="recent">PLAYLIST</p>
+               <div class="options"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200C94.93 200 120 225.1 120 256zM280 256C280 286.9 254.9 312 224 312C193.1 312 168 286.9 168 256C168 225.1 193.1 200 224 200C254.9 200 280 225.1 280 256zM328 256C328 225.1 353.1 200 384 200C414.9 200 440 225.1 440 256C440 286.9 414.9 312 384 312C353.1 312 328 286.9 328 256z" fill="white"></svg>
+</div>
+                <div class="noti"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32V51.2C329 66.03 384 130.6 384 208V226.8C384 273.9 401.3 319.2 432.5 354.4L439.9 362.7C448.3 372.2 450.4 385.6 445.2 397.1C440 408.6 428.6 416 416 416H32C19.4 416 7.971 408.6 2.809 397.1C-2.353 385.6-.2883 372.2 8.084 362.7L15.5 354.4C46.74 319.2 64 273.9 64 226.8V208C64 130.6 118.1 66.03 192 51.2V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32H256zM224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512z" fill="white"></svg>
+                    </div>
+                   <div class="share"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 64C256 46.33 270.3 32 288 32H415.1C415.1 32 415.1 32 415.1 32C420.3 32 424.5 32.86 428.2 34.43C431.1 35.98 435.5 38.27 438.6 41.3C438.6 41.35 438.6 41.4 438.7 41.44C444.9 47.66 447.1 55.78 448 63.9C448 63.94 448 63.97 448 64V192C448 209.7 433.7 224 416 224C398.3 224 384 209.7 384 192V141.3L214.6 310.6C202.1 323.1 181.9 323.1 169.4 310.6C156.9 298.1 156.9 277.9 169.4 265.4L338.7 96H288C270.3 96 256 81.67 256 64V64zM0 128C0 92.65 28.65 64 64 64H160C177.7 64 192 78.33 192 96C192 113.7 177.7 128 160 128H64V416H352V320C352 302.3 366.3 288 384 288C401.7 288 416 302.3 416 320V416C416 451.3 387.3 480 352 480H64C28.65 480 0 451.3 0 416V128z"fill="white"></svg>
+                    </div>
+            </div>
+            <img src="assets/cover5.png" class="cover1">
+            <img src="assets/cover5.png" class="artist1">
+                 
+
+            <p class="title1">Indian Music Adda Festival <br>2022</p>
+     
+            <p class="ar1">More From IMA </p>
+            <p class="ar2">90's Music Radio </p>
+            <p class="ar3">Best 90's Music By IMA </p>
+            <p class="ar4"> Panchi Banu (Remix) </p>
+            <p class="ar5">Bindiya Chamkegi (Special Remix) </p>
+            <p class="ar6">Ram Teri Ganga Meli Hogyi</p>
+            
+            <div class="r2"></div>
+            <div class="r3"></div>
+            <div class="r4"></div>
+            <div class="r5"></div>
+
+        </div>
+        <div class="sidenav">
+            <div class="prof">
+            </div>
+            <div class="tools"></div>
+            <div class="others"></div>
+        </div>
+        <div class="player">
+
+
+<div class="playerplay">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM176 168V344C176 352.7 180.7 360.7 188.3 364.9C195.8 369.2 205.1 369 212.5 364.5L356.5 276.5C363.6 272.1 368 264.4 368 256C368 247.6 363.6 239.9 356.5 235.5L212.5 147.5C205.1 142.1 195.8 142.8 188.3 147.1C180.7 151.3 176 159.3 176 168V168z" fill="white" id="masterPlay" class="play1"></svg>
+</div>
+<div class="playerback">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M31.1 64.03c-17.67 0-31.1 14.33-31.1 32v319.9c0 17.67 14.33 32 32 32C49.67 447.1 64 433.6 64 415.1V96.03C64 78.36 49.67 64.03 31.1 64.03zM267.5 71.41l-192 159.1C67.82 237.8 64 246.9 64 256c0 9.094 3.82 18.18 11.44 24.62l192 159.1c20.63 17.12 52.51 2.75 52.51-24.62v-319.9C319.1 68.66 288.1 54.28 267.5 71.41z" fill="white"></svg>
+    </div>
+    <div class="playernext">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M287.1 447.1c17.67 0 31.1-14.33 31.1-32V96.03c0-17.67-14.33-32-32-32c-17.67 0-31.1 14.33-31.1 31.1v319.9C255.1 433.6 270.3 447.1 287.1 447.1zM52.51 440.6l192-159.1c7.625-6.436 11.43-15.53 11.43-24.62c0-9.094-3.809-18.18-11.43-24.62l-192-159.1C31.88 54.28 0 68.66 0 96.03v319.9C0 443.3 31.88 457.7 52.51 440.6z" fill="white"></svg>
+        </div>
+        <div class="playsound">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M301.2 34.85c-11.5-5.188-25.02-3.122-34.44 5.253L131.8 160H48c-26.51 0-48 21.49-48 47.1v95.1c0 26.51 21.49 47.1 48 47.1h83.84l134.9 119.9c5.984 5.312 13.58 8.094 21.26 8.094c4.438 0 8.972-.9375 13.17-2.844c11.5-5.156 18.82-16.56 18.82-29.16V64C319.1 51.41 312.7 40 301.2 34.85zM513.9 255.1l47.03-47.03c9.375-9.375 9.375-24.56 0-33.94s-24.56-9.375-33.94 0L480 222.1L432.1 175c-9.375-9.375-24.56-9.375-33.94 0s-9.375 24.56 0 33.94l47.03 47.03l-47.03 47.03c-9.375 9.375-9.375 24.56 0 33.94c9.373 9.373 24.56 9.381 33.94 0L480 289.9l47.03 47.03c9.373 9.373 24.56 9.381 33.94 0c9.375-9.375 9.375-24.56 0-33.94L513.9 255.1z" fill="white"></svg>
+            </div>
+            <a href="playing.html" target="_blank">
+                <p class="songname">Kendi hundi si • Excuses</p>
+                <p class="artistname">AP Dhillon</p>
+                <img src="assets/covermain.jpg" class="songcover">
+            </a>
+        
+<input type="range" class="range" min="0" max="100" value="0" id="myProgressBar">
+
+</div>                      
+   </div>    
+
+<div class="sbdetails">
+    <a href="profile.html"><img class="img1" src="assets/stock.jpg">
+        <p class="name">Tony Stark</p></a>
+ <p class="menu">MENU</p>
+ <a href="index.html">
+ <p class="discover">Discover</p></a>
+ <a href="404.html"><p class="trend">Trending</p></a>
+ <a href="404.html"><p class="playlist">Playlist</p></a>
+ <a href="404.html"><p class="stream">Streaming</p></a>
+ <a href="404.html"><p class="podcast">Podcast</p></a>
+ <a href="404.html"><p class="premium">Premium</p></a>
+ <a href="index.html"><div class="cov1">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z" fill="white" ></svg>
+ </div></a>
+ <a href="404.html"><div class="cov2">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M323.5 51.25C302.8 70.5 284 90.75 267.4 111.1C240.1 73.62 206.2 35.5 168 0C69.75 91.12 0 210 0 281.6C0 408.9 100.2 512 224 512s224-103.1 224-230.4C448 228.4 396 118.5 323.5 51.25zM304.1 391.9C282.4 407 255.8 416 226.9 416c-72.13 0-130.9-47.73-130.9-125.2c0-38.63 24.24-72.64 72.74-130.8c7 8 98.88 125.4 98.88 125.4l58.63-66.88c4.125 6.75 7.867 13.52 11.24 19.9C364.9 290.6 353.4 357.4 304.1 391.9z" fill="white" ></svg>
+ </div></a>
+ <a href="404.html"><div class="cov3">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V352H256C238.3 352 224 366.3 224 384V512H64C28.65 512 0 483.3 0 448V64zM171.3 52.69C165.1 46.44 154.9 46.44 148.7 52.69L52.69 148.7C46.44 154.9 46.44 165.1 52.69 171.3C58.93 177.6 69.06 177.6 75.31 171.3L171.3 75.31C177.6 69.07 177.6 58.94 171.3 52.69V52.69zM267.3 107.3C273.6 101.1 273.6 90.93 267.3 84.69C261.1 78.44 250.9 78.44 244.7 84.69L84.69 244.7C78.44 250.9 78.44 261.1 84.69 267.3C90.93 273.6 101.1 273.6 107.3 267.3L267.3 107.3zM384 384L256 512V384H384z" fill="white" ></svg>
+ </div></a>
+ <a href="404.html"><div class="cov4">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M62.62 2.339C78.1 8.97 86.9 27.63 80.27 44.01C69.79 69.9 64 98.24 64 128C64 157.8 69.79 186.1 80.27 211.1C86.9 228.4 78.1 247 62.62 253.7C46.23 260.3 27.58 252.4 20.95 236C7.428 202.6 0 166.1 0 128C0 89.87 7.428 53.39 20.95 19.99C27.58 3.612 46.23-4.293 62.62 2.339V2.339zM513.4 2.339C529.8-4.293 548.4 3.612 555.1 19.99C568.6 53.39 576 89.87 576 128C576 166.1 568.6 202.6 555.1 236C548.4 252.4 529.8 260.3 513.4 253.7C497 247 489.1 228.4 495.7 211.1C506.2 186.1 512 157.8 512 128C512 98.24 506.2 69.9 495.7 44.01C489.1 27.63 497 8.969 513.4 2.338V2.339zM477.1 466.8C484.4 482.8 477.3 501.8 461.2 509.1C445.2 516.4 426.2 509.3 418.9 493.2L398.3 448H177.7L157.1 493.2C149.8 509.3 130.8 516.4 114.8 509.1C98.67 501.8 91.56 482.8 98.87 466.8L235.9 165.2C228.4 154.7 224 141.9 224 128C224 92.65 252.7 64 288 64C323.3 64 352 92.65 352 128C352 141.9 347.6 154.7 340.1 165.2L477.1 466.8zM369.2 384L354.7 352H221.3L206.8 384H369.2zM250.4 288H325.6L288 205.3L250.4 288zM152 128C152 147.4 156 165.8 163.3 182.4C168.6 194.5 163.1 208.7 150.9 213.1C138.8 219.3 124.6 213.8 119.3 201.6C109.5 179 104 154.1 104 128C104 101.9 109.5 76.96 119.3 54.39C124.6 42.25 138.8 36.7 150.9 42.01C163.1 47.31 168.6 61.46 163.3 73.61C156 90.23 152 108.6 152 128V128zM472 128C472 154.1 466.5 179 456.7 201.6C451.4 213.8 437.2 219.3 425.1 213.1C412.9 208.7 407.4 194.5 412.7 182.4C419.1 165.8 424 147.4 424 128C424 108.6 419.1 90.24 412.7 73.61C407.4 61.46 412.9 47.32 425.1 42.01C437.2 36.7 451.4 42.25 456.7 54.39C466.5 76.96 472 101.9 472 128V128z" fill="white"></svg>
+ </div></a>
+ <a href="404.html"><div class="cov5">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 0C100.3 0 0 100.3 0 224c0 92.22 55.77 171.4 135.4 205.7c-3.48-20.75-6.17-41.59-6.998-58.15C80.08 340.1 48 285.8 48 224c0-97.05 78.95-176 176-176s176 78.95 176 176c0 61.79-32.08 116.1-80.39 147.6c-.834 16.5-3.541 37.37-7.035 58.17C392.2 395.4 448 316.2 448 224C448 100.3 347.7 0 224 0zM224 312c-32.88 0-64 8.625-64 43.75c0 33.13 12.88 104.3 20.62 132.8C185.8 507.6 205.1 512 224 512s38.25-4.375 43.38-23.38C275.1 459.9 288 388.8 288 355.8C288 320.6 256.9 312 224 312zM224 280c30.95 0 56-25.05 56-56S254.1 168 224 168S168 193 168 224S193 280 224 280zM368 224c0-79.53-64.47-144-144-144S80 144.5 80 224c0 44.83 20.92 84.38 53.04 110.8c4.857-12.65 14.13-25.88 32.05-35.04C165.1 299.7 165.4 299.7 165.6 299.7C142.9 282.1 128 254.9 128 224c0-53.02 42.98-96 96-96s96 42.98 96 96c0 30.92-14.87 58.13-37.57 75.68c.1309 .0254 .5078 .0488 .4746 .0742c17.93 9.16 27.19 22.38 32.05 35.04C347.1 308.4 368 268.8 368 224z" fill="white"></svg>
+ </div></a>
+ <a href="404.html"></a> <div class="cov6">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256-.0078C260.7-.0081 265.2 1.008 269.4 2.913L457.7 82.79C479.7 92.12 496.2 113.8 496 139.1C495.5 239.2 454.7 420.7 282.4 503.2C265.7 511.1 246.3 511.1 229.6 503.2C57.25 420.7 16.49 239.2 15.1 139.1C15.87 113.8 32.32 92.12 54.3 82.79L242.7 2.913C246.8 1.008 251.4-.0081 256-.0078V-.0078zM256 444.8C393.1 378 431.1 230.1 432 141.4L256 66.77L256 444.8z" fill="white"></svg>
+ </div></a>
+
+</div>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+   position: absolute;
+   background: url(Assets/bg2.jpg);
+   width: 100%;
+   height: 100%;
+
+   
+  /* filter: blur(20px);*/
+  filter: saturate(120%);
+  /* -webkit-filter: blur(100px);*/
+}
+.container{
+   position: absolute;
+   margin: 40px;
+   width: 195vh;
+   height: 90vh;
+   background-color: rgba(255,255,255,.15);
+   backdrop-filter: blur(7px);
+}
+
+.sidenav{
+    position: absolute;
+    width: 250px;
+    height: 84.5%;
+   /*background-color: black;*/
+   border-right: 0.1px  solid rgb(220, 218, 225); 
+   opacity: 35%;
+}
+ .prof{
+    position: absolute;
+    margin-left: 40px;
+    width: 160px;
+    height: 90px;
+    /*background-color: black;*/
+    border-bottom: 0.1px  solid rgb(220, 218, 225); 
+    opacity: 40%;
+}
+.tools{
+    position: relative;
+    margin-left: 40px;
+    width: 160px;
+    height: 340px;
+    /*background-color: black;*/
+    border-bottom: 0.1px  solid rgb(220, 218, 225); 
+    opacity: 40%;
+}
+.others{
+    position: relative;
+    margin-left: 40px;
+    width: 160px;
+    height: 80px;
+    /*background-color: black;*/
+    border-bottom: 0.1px  solid rgb(220, 218, 225); 
+    opacity: 40%;
+}
+
+.img1{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 75px;
+    width: 35px;
+    height: 35px;
+    opacity: 100%;
+    border-radius: 25px;
+    box-shadow:0 0 20px rgb(40, 41, 48);
+    cursor: pointer;
+}
+.img1:hover{
+    transition: 0.5s;
+    box-shadow:0 0 15px  rgb(255, 255, 255);
+    
+}
+.name{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 90%;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 140px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 25%;
+}
+.cov1{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 175px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+
+.cov1:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov1 svg{
+    position: relative;
+    margin: 8px;
+    width: 15px;
+}
+.cov2{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 228px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.cov2:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov2 svg{
+    position: relative;
+    margin: 8px;
+    width: 15px;
+}
+.cov3{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 280px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.cov3:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov3 svg{
+    position: relative;
+    margin: 9px;
+    width: 13px;
+}
+
+.cov4{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 332px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.cov4:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov4 svg{
+    position: relative;
+    margin: 8px;
+    margin-top: 10px;
+    width: 15px;
+}
+.discover{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 180px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.discover:hover{
+    opacity: 100%;
+}
+.trend{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 235px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.trend:hover{
+    opacity: 100%;
+}
+.playlist{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 287px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.playlist:hover{
+    opacity: 100%;
+}
+.stream{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 338px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.stream:hover{
+    opacity: 100%;
+}
+.cov5{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 405px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.podcast{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 412px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.podcast:hover{
+    opacity: 100%;
+}
+.cov5:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov5 svg{
+    position: relative;
+    margin: 8px;
+    width: 15px;
+}
+.cov6{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 490px;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: 	#4d4f5d;
+}
+.premium{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 496px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 60%;
+    cursor: pointer;
+}
+.premium:hover{
+    opacity: 100%;
+}
+.cov6:hover{
+    transition: 0.5s;
+    background-color: 	#FF7F50;
+}
+.cov6 svg{
+    position: relative;
+    margin: 8px;
+    width: 15px;
+}
+.player{
+    position: fixed;
+    bottom: 0px;
+    width: 195vh;
+    /*width: 1280px;*/
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.113);
+   backdrop-filter: blur(7px);
+   align-items: center;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    margin-left: 250px;
+    width: 157vh;
+   /* width: 1030px;*/
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.096);
+   backdrop-filter: blur(7px);
+}
+.navbase{
+    position: absolute;
+    margin-top: 0px;
+    width: 1030px;
+    height: 50px;
+   align-items: center;
+   /*background-color: #fff;*/
+}
+.maindis{
+    margin-top: 30px;
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 50px;
+    font-family: poppins;
+    text-shadow: 0 0px 8px rgba(0, 0, 0, 0.362);
+}
+.recent{
+    margin-top: 100px;
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 50px;
+    font-family: poppins;
+    font-weight: 400;
+    }
+
+.cover1{
+    width: 250px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 130px;
+    cursor: pointer;
+    box-shadow: 0 20px  60px #000000b9;
+    
+}
+.artist1{
+    width: 120px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 130px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.cover2{
+    width: 150px;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px #0000004d;
+   position: absolute;
+    margin-left: 410px;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px #00000027;
+    cursor: pointer;
+}
+.cover4{
+    width: 150px;
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px #00000027;
+    cursor: pointer;
+}
+.cover5{
+    width: 150px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px #00000027;
+    cursor: pointer;
+}
+
+.title1{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+.r2{
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 380px;
+    width: 300px;
+    border-bottom: 0.5px solid #fff;
+    opacity: 20%;
+}
+.r3{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 380px;
+    width: 300px;
+    border-bottom: 0.5px solid #fff;
+    opacity: 20%;
+}
+.r4{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 380px;
+    width: 300px;
+    border-bottom: 0.5px solid #fff;
+    opacity: 20%;
+}
+.r5{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 380px;
+    width: 300px;
+    border-bottom: 0.5px solid #fff;
+    opacity: 20%;
+}
+.ar1{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 380px;
+    font-size: 35px;
+    color: #fff;
+    font-family: poppins;
+    text-shadow: 0 0px 8px rgba(0, 0, 0, 0.362);
+}
+
+.ar2{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 380px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 17px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.ar3{
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 380px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 17px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.ar4{
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 380px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 17px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.ar5{
+    position: absolute;
+    margin-top: 412px;
+    margin-left: 380px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 17px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.ar6{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 380px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 17px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.ar2:hover{
+    opacity: 100%;
+}
+.ar3:hover{
+    opacity: 100%;
+}
+.ar4:hover{
+    opacity: 100%;
+}
+.ar5:hover{
+    opacity: 100%;
+}
+.ar6:hover{
+    opacity: 100%;
+}
+.MP{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    opacity: 60%;
+}
+.popular{
+    position: absolute;
+    width: 600px;
+    margin-left: 50px;
+    height: 86px;
+    margin-top: 415px;
+    border-top: 0.5px solid #fff;
+    opacity: 40%;
+}
+.hash1{
+    position: absolute;
+    margin-top: 20px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    
+}
+/*.hash2{
+    position: absolute;
+    margin-top: 52px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    
+}*/
+.atitile1{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 100px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    cursor: pointer;
+}
+.atitile2{
+    position: absolute;
+    margin-top: 455px;
+    margin-left: 100px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 10px;
+    opacity: 50%;
+}
+.btitile1{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 390px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+}
+.ctitile1{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 550px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+}
+.podcaster{
+    position: absolute;
+    width: 250px;
+    margin-left: 720px;
+    height: 86px;
+    margin-top: 415px;
+    border-top: 0.5px solid #fff;
+    opacity: 40%;
+}
+.TP{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 720px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    opacity: 60%;
+}
+.hashh1{
+    position: absolute;
+     margin-top: 435px;
+     margin-left: 790px;
+     color: #fff;
+     font-family: poppins;
+     font-size: 14px;
+     cursor: pointer;
+}
+.ahashh1{
+  
+    position: absolute;
+    margin-top: 458px;
+    margin-left: 790px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 10px;
+    opacity: 50%;
+    cursor: pointer;
+    }
+
+.p1{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 720px;
+    width: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.next svg{
+    width: 10px;
+    margin: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.range{
+    position: absolute;
+    -webkit-appearance: none;
+    width: 600px;
+    height: 3px;
+    margin-left: 580px;
+    margin-top:43px;
+    background: #ddd;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+}
+.player svg{
+    position: absolute;
+    width: 52px;
+    margin-top: 18px;
+    margin-left: 395px;
+    cursor:pointer;
+}
+.playerback svg{
+    position: absolute;
+    width: 15px;
+    margin-top: 33px;
+    margin-left: 360px;
+    opacity: 50%;
+    cursor:pointer;
+}
+.playernext svg{
+    position: absolute;
+    width: 15px;
+    margin-top: 33px;
+    margin-left: 470px;
+    opacity: 50%;
+    cursor:pointer;
+}
+
+.coverplay{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+}
+.songname{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 28px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 14px;
+    cursor: pointer;
+}
+.artistname{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 50px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+    cursor: pointer;
+}
+.songcover{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 48px;
+    height: 48px;
+}
+
+.options{
+    position: absolute;
+    width: 15px;
+    margin-top: 50px;
+    margin-left: 850px;
+    opacity: 60%;
+    cursor: pointer;
+}
+.options:hover{
+    opacity: 100%;
+}
+.noti{
+    position: absolute;
+    width: 15px;
+    margin-top: 50px;
+    margin-left: 890px;
+    opacity: 60%;
+    cursor: pointer;
+}
+.noti:hover{
+    opacity: 100%;
+}
+.share{
+    position: absolute;
+    width: 15px;
+    margin-top: 50px;
+    margin-left: 930px;
+    opacity: 60%;
+    cursor: pointer;
+}
+.share:hover{
+    opacity: 100%;
+}
+/*.ts1{
+    position: absolute;
+    margin-left: 535px;
+    margin-top: 43px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+}
+.ts2{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 43px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 12px;
+    opacity: 50%;
+}*/
+.playsound svg{
+    position: absolute;
+    width: 20px;
+    margin-top: 35px;
+    margin-left: 545px;
+    opacity: 70%;
+    cursor:pointer;
+}
+</style>
+
+<script src="script.js"></script>
+    </body>
+</html>
